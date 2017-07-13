@@ -1,0 +1,7 @@
+{
+  "name": "Line Bot Sample",
+  "description": "快速建立會鬼扯的bot",
+  "repository": "https://github.com/NickYuu/Python_Line_Bot",
+  "logo": "",
+  "keywords": ["python", "linebot", "Sample"]
+}
