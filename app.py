@@ -8,7 +8,7 @@
 """
 
 import os
-
+import requests
 from flask import Flask, request, abort
 
 from linebot import (
@@ -50,9 +50,10 @@ def callback():
 
 @handler.add(MessageEvent, message=TextMessage)
 def handle_message(event):
+    res = requests.get('http://chattergg.club?msg=' + event.message.text)
     line_bot_api.reply_message(
         event.reply_token,
-        TextSendMessage(text=event.message.text))
+        TextSendMessage(text=res.text))
 
 
 if __name__ == "__main__":
