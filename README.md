@@ -161,7 +161,7 @@ Heroku 快速建立鬼扯LineBot-使用Python
 
 <br>
 
-<img src="https://i.imgur.com/A5gASfg.jpg" class="col-md-8 col-sm-8 col-xs-12" alt="" align=center/></img>
+<img src="https://i.imgur.com/A5gASfg.jpg" width="250" alt="" align=center/></img>
 
 <br>
 
